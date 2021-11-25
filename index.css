@@ -1,8 +1,11 @@
-/* .container { */
-/* background-size: cover */
-/* } */
 body {
   background: no-repeat url("./assets/fundo.jpg");
+  background-size: cover;
+  background-position: scroll;
+  background-origin: padding-box;
+  background-blend-mode: multiply;
+  background-blend-mode: darken;
+
 }
 .header {
   align-items: center;
