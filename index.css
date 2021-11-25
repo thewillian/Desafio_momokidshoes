@@ -1,0 +1,40 @@
+/* .container { */
+/* background-size: cover */
+/* } */
+body {
+  background: no-repeat url("./assets/fundo.jpg");
+}
+.header {
+  align-items: center;
+}
+.pagina-logo {
+  width: 200px;
+  margin: 0 auto;
+}
+.pagina-logo img {
+  width: 100%;
+}
+.menu {
+  margin: 0 auto;
+  display: flex;
+  text-decoration: none;
+  text-align: center;
+}
+.menu li {
+  list-style: none;
+  background: white;
+  padding: 15px;
+}
+.menu li a {
+  text-decoration: none;
+  color: hsl(300, 88%, 34%);
+}
+.menu-item {
+  padding: 15px;
+  margin: 20px;
+}
+.banner {
+  display: block;
+  text-align: center;
+  width: 100%;
+}
