@@ -1,11 +1,10 @@
 body {
-  background: no-repeat url("./assets/fundo.jpg");
+  /*background: no-repeat url("./assets/fundo.jpg");
   background-size: cover;
   background-position: scroll;
   background-origin: padding-box;
   background-blend-mode: multiply;
-  background-blend-mode: darken;
-
+  background-blend-mode: darken;*/
 }
 .header {
   align-items: center;
@@ -40,4 +39,67 @@ body {
   display: block;
   text-align: center;
   width: 100%;
+}
+.logo-container {
+  width: 100px;
+}
+.redes {
+  width: 100%;
+}
+.nav {
+  display: flex;
+  justify-content: center;
+}
+#rodape {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.logo-wrapper {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+#container {
+  display: grid;
+  grid-template-columns: 2% 2% 2%;
+  grid-template-rows: 50px;
+  grid-area: auto;
+}
+#produto {
+  width: 100px;
+  height: 100px;
+}
+.conjunto {
+  width: 100px;
+  height: 100px;
+}
+.produto-container {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.produto-container img {
+  width: 100%;
+}
+.produto {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+  align-items: center;
+}
+.body-catalogo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.produto-descricao {
+  width: 400px;
+}
+.body-produto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
